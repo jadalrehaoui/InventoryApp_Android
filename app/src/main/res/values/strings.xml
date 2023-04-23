@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Inventory V3</string>
+    <string name="permission_needed">Permission needed</string>
+    <string name="ok">Ok</string>
+    <string name="read_sms_rationale">We need to send SMS to perform actions</string>
+    <string name="send_sms_rationale">Permission needed to send SMS</string>
+    <string name="recieve_sms_rationale">Permission to receive SMS.</string>
+    <string name="en_login">Login</string>
+    <string name="en_password">Password</string>
+    <string name="en_username">Username</string>
+    <string name="en_forgot_your_password">Forgot your password ?</string>
+    <string name="en_register">Register</string>
+    <string name="en_done_by">Done by Jad Alrehaoui</string>
+    <string name="en_confirm_password">Confirm your password</string>
+    <string name="en_fullname">Full Name</string>
+    <string name="en_send_code">Send code to email</string>
+    <string name="en_mismatch">Username and password don\'t match.</string>
+    <string name="en_username_taken">This username is taken</string>
+    <string name="loading">Loading...</string>
+    <string name="add">Add Product</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="send_internet_rationale">We need internet to get photos from the web.</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="available_quantity">Available:</string>
+    <string name="en_title">Title</string>
+    <string name="en_description">Description</string>
+    <string name="sku">SKU</string>
+    <string name="en_price">Price</string>
+    <string name="en_quantity">Quantity</string>
+    <string name="en_save">Save</string>
+    <string name="en_cannot_add_image_on_app">Adding image through the application is not available yet</string>
+</resources>

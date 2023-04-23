@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxHeight="70dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/productImageId"
+        android:src="@drawable/warehouse_image"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/productTextTitleId"
+         />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/productTextTitleId"
+        android:autoSizeMaxTextSize="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintLeft_toRightOf="@id/productImageId"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/productImageId"
+        app:layout_constraintEnd_toStartOf="@+id/priceTextId"
+        android:maxLines="1"
+        android:text="ANTONIO BANDERAS BLUE SEDUCTION EDP"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/skuTextId"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skuTextId"
+        app:layout_constraintLeft_toRightOf="@id/productImageId"
+        app:layout_constraintTop_toBottomOf="@id/productTextTitleId"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="10dp"
+        android:text="SKU"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceTextId"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/deleteBtnId"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="$12.99"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteBtnId"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/delete_red"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
